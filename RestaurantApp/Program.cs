@@ -42,6 +42,9 @@ namespace RestaurantApp
                 Console.WriteLine("ปิยะวัฒน์ โกสุม");
                 Console.WriteLine("กุลธารินท์ คงเรือง");
                 Console.WriteLine("วอดส์ๆๆๆๆๆๆ");
+
+
+                Console.WriteLine("Washi");
             }
         }
 
