@@ -38,7 +38,10 @@ namespace RestaurantApp
                 new Restaurant(3, "Din Tai Fung", "Taiwanese Cuisine", 4.7)
             };
 
-                Console.ReadKey();
+                Console.WriteLine("ปุณยาพร เพ็ชรลา");
+                Console.WriteLine("ปิยะวัฒน์ โกสุม");
+                Console.WriteLine("กุลธารินท์ คงเรือง");
+
             }
         }
 
