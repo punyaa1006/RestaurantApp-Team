@@ -90,4 +90,3 @@ namespace RestaurantApp
         }
     }
 }
-สวัสดี
