@@ -56,7 +56,7 @@ namespace RestaurantApp
 
                 Console.WriteLine("List of Restaurants:");
 
-                Console.WriteLine("agwwagwgaw");
+                Console.WriteLine("afffffff");
             }
         }
 
