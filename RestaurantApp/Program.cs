@@ -55,6 +55,8 @@ namespace RestaurantApp
                 Console.WriteLine("Washi");
 
                 Console.WriteLine("List of Restaurants:");
+
+                Console.WriteLine("agwwagwgaw");
             }
         }
 
