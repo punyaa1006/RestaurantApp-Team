@@ -47,19 +47,50 @@ namespace RestaurantApp
                 Console.WriteLine("โอเปิ้ล");
                 Console.WriteLine("แฮปปี้");
                 Console.WriteLine("บอส");
-
-
-                Console.WriteLine("วอดส์ๆๆๆๆๆๆ");
-
-
-                Console.WriteLine("Washi");
-
-                Console.WriteLine("List of Restaurants:");
-
-                Console.WriteLine("afffffff");
             }
         }
 
+        // เมธอดแสดงรายชื่อร้านอาหาร
+        static void ShowRestaurantList()
+        {
+            List<Restaurant> restaurants = new List<Restaurant>
+        {
+            new Restaurant(1, "Quanjude Roast Duck", "Beijing Cuisine", 4.5),
+            new Restaurant(2, "Donglaishun Hot Pot", "Hot Pot", 4.6),
+            new Restaurant(3, "Din Tai Fung", "Taiwanese Cuisine", 4.7)
+        };
 
+            Console.WriteLine("=== รายชื่อร้านอาหาร ===");
+
+            foreach (Restaurant r in restaurants)
+            {
+                Console.WriteLine(r.Id + ". " + r.Name);
+            }
+        }
+
+        // เมธอด A
+        static void FeatureA()
+        {
+        }
+        // เมธอด B
+        static void FeatureB()
+        {
+        }
+        // เมธอด C
+        static void FeatureC()
+        {
+        }
+        // Main
+        static void Main(string[] args)
+        {
+            ShowRestaurantList();
+            FeatureA();
+            FeatureB();
+            FeatureC();
+        }
     }
 }
+
+
+
+
